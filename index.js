@@ -1,4 +1,4 @@
-import process from 'process';
+var process = require('process');
 var cors = require('cors');
 var express = require('express');
 var app = module.exports = express();
