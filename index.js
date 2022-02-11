@@ -121,6 +121,8 @@ app.delete('/appointments/:id', (req, res) => {
     }
 })
 
+console.log(process.env.PORT || 80);
+
 if (!module.parent) {
     app.listen(process.env.PORT || 80);
     console.log('Express started on port 4000');
